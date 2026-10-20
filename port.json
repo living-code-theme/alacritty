@@ -1,0 +1,48 @@
+{
+  "$schema": "https://living-code.dev/port.schema.json",
+  "schemaVersion": 1,
+  "name": "Alacritty",
+  "slug": "alacritty",
+  "group": "Terminals",
+  "emoji": "🚀",
+  "description": "Living Code for Alacritty. Repository-owned theme files, installation instructions and four color flavors.",
+  "homepage": "https://alacritty.org",
+  "quick": "See installation instructions",
+  "aliases": [
+    "alacritty"
+  ],
+  "flavors": [
+    "night",
+    "frost",
+    "paper",
+    "signal"
+  ],
+  "files": [
+    "living-code-frost.toml",
+    "living-code-night.toml",
+    "living-code-paper.toml",
+    "living-code-signal.toml"
+  ],
+  "images": [
+    {
+      "flavor": "night",
+      "path": "images/night.png",
+      "alt": "Alacritty running Living Code Night"
+    },
+    {
+      "flavor": "frost",
+      "path": "images/frost.png",
+      "alt": "Alacritty running Living Code Frost"
+    },
+    {
+      "flavor": "paper",
+      "path": "images/paper.png",
+      "alt": "Alacritty running Living Code Paper"
+    },
+    {
+      "flavor": "signal",
+      "path": "images/signal.png",
+      "alt": "Alacritty running Living Code Signal"
+    }
+  ]
+}
